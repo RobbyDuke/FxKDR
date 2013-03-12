@@ -1,0 +1,8 @@
+# Author: Robby Duke
+# Project: FxKDR
+
+SQL-Host: '127.0.0.1'
+SQL-User: 'root'
+SQL-Pass: ''
+SQL-Data: 'FxKDR'
+

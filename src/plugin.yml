@@ -1,0 +1,22 @@
+name: FxKDR
+version: 0.0.1
+main: com.noeff3x.plugins.FxKDR.Wrapper
+
+author: NoEff3x
+database: true
+
+website: http://noeff3x.com/
+
+commands:
+  kd:
+    description: Prison Essentials kill/death rate information
+    aliases: [kdr, kills, deaths]
+    usage: Syntax error! Simply type /kd <arguement> <value>
+    
+permissions:
+  fxkdr.*:
+    description: Gives access to all PrisonEssential commands
+    children:
+      fxkdr.staff
+      fxkdr.stats.reset: true
+      fxkdr.stats.modify: true
